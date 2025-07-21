@@ -4,6 +4,23 @@
     padding: 0;
 }
 
+#left-menu {
+    background-color: #fff;
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    left: -320px;
+    padding: 0 5px 0 5px;
+    border: 3px solid peru;
+    transition: 0.5s;
+}
+
+
+body {
+    background-color: #eee;
+}
+
 .title {
     background-color: #9FC87E;
     padding: 10px;
