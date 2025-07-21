@@ -1,3 +1,16 @@
-*{
+* {
     font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    background-color: #9FC87E;
+    padding: 10px;
+}
+
+.title ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
 }
