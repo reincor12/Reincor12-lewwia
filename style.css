@@ -50,7 +50,7 @@ header {
     border-radius: 30px;
     padding-left: 14px;
     outline: none;
-    opacity: 0;
+    opacity: 1;
     transition: 0.3s;
     padding-left: 12px;
 }
