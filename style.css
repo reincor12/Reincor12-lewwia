@@ -171,7 +171,6 @@ header {
     display: flex;
     position: absolute;
     left: 80px;
-<<<<<<< HEAD
     top: 589px;
     width: 1280px;
     height: 361px;
@@ -393,9 +392,3 @@ footer {
     font-weight: bold;
     margin: 12.99px 0 0 454px;
 }
-=======
-    top: 553px;
-    width: 1280px;
-    height: 361px;
-}
->>>>>>> 2742920ca56714d7460390f3a95f1c01129abf2e
