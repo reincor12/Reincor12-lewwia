@@ -392,3 +392,12 @@ footer {
     font-weight: bold;
     margin: 12.99px 0 0 454px;
 }
+
+
+.third-div {
+    display: flex;
+    position: absolute;
+    left: 84px;
+    top: 970px;
+    width: 1280px;
+    height: 361px;}
