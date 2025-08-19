@@ -17,16 +17,7 @@ header {
     margin: 40px 80px 0px 80px;
     display: flex;
 }
-.main {
-position:asbolute;
-left: 100px;
-top:219px;
-background-color:#FFEBD8;
-width:1240px;
-height:1252px;
-border-radius: 16px;
-border:1px solid black;
-}
+
 #Logo {
     display: flex;
     width: 161px;
@@ -92,105 +83,22 @@ border:1px solid black;
     transition: 0.3s;
 }
 
-.first-section {
-    display: flex;
-    width: 1280px;
-    height: 361px;
-    position: absolute;
-    top: 208px;
-    left: 80px;
-}
 
-.napoleon {
-    width: 305px;
-    height: 361px;
-    background-color: #FFFFFF;
-    border-radius: 16px;
-}
 
-.time {
-    margin: 4px 0px 0px 16px;
-    display: flex;
-    align-items: center;
-}
 
-.span-in-time {
-    margin: 0px 0px 0px 4px;
-    color: #656565;
-    font-size: 12px;
-    font-family: "Montserrat", sans-serif;
-}
 
-.portion {
-    display: flex;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
-    color: #656565;
-    margin-left: 104px;
-}
 
-.time-portion {
-    display: flex;
-}
 
-.h1-in-card {
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Playfair Display", serif;
-    margin: 4px 0px 0px 16px;
-}
 
-.p-in-card {
-    margin: 4px 0px 0px 16px;
-    color: #656565;
-    font-family: "Montserrat", sans-serif;
-}
 
-.bttn-in-card {
-    margin: 16px 0px 0px 16px;
-    width: 273px;
-    height: 44px;
-    margin: 16px 0px 0px 16px;
-    background-color: #FFFFFF;
-    border: 2px solid #075B5E;
-    color: #075B5E;
-    border-radius: 16px;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: "Roboto", sans-serif;
-    transition: 0.3s;
-}
 
-.bttn-in-card:hover {
-    border-color: #9FC87E;
-    color: #9FC87E;
-}
-
-.card {
-    width: 305px;
-    height: 361px;
-    background-color: #FFFFFF;
-    border-radius: 16px;
-    margin-left: 20px;
-}
-
-.second-div {
-    display: flex;
-    position: absolute;
-    left: 80px;
-    top: 589px;
-    width: 1280px;
-    height: 361px;
-}
 
 footer {
     background-color: #FCC754;
     height: 305px;
     width: 1440px;
     position: absolute;
-    top: 1395px;
+    top: 1506px;
     left: 0px;
 }
 
@@ -310,14 +218,16 @@ footer {
     top: 48px;
     left: 829.67px;
 }
-
-#main {
-    font-family: "Montserrat", sans-serif;
-    width: 82px;
-    height: 20px;
+main{
+    width: 1240px;
+    height: 1252px;
     position: absolute;
-    top: 88px;
-    left: 829.67px;
+    top:219px;
+    left: 100px;
+border-radius: 16px;
+border:1px solid black;
+background-color:#FFEBD8;
+
 }
 
 #recipe {
@@ -403,10 +313,32 @@ footer {
 }
 
 
-.third-div {
-    display: flex;
-    position: absolute;
-    left: 84px;
-    top: 970px;
-    width: 1280px;
-    height: 361px;}
+#span4 {
+position: absolute;
+left: 247px;
+top:166px;
+font-size: 16px;
+    color: #656565
+
+}
+
+#span5{
+position: absolute;
+left: 267px;
+top:164px;
+font-size: 16px;
+    color: #656565;
+ font-family: "Montserrat", sans-serif;
+}
+.h1 {
+position:absolute;
+left:0px;
+top:0px;
+font-size:64px;
+font-style:italic;
+font-weight: 600;
+width:470px;
+height: 70px;
+font-family: "Playfair Display", serif;
+margin:0;
+}
