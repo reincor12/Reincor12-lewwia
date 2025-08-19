@@ -218,15 +218,16 @@ footer {
     top: 48px;
     left: 829.67px;
 }
-main{
+
+main {
     width: 1240px;
     height: 1252px;
     position: absolute;
-    top:219px;
+    top: 219px;
     left: 100px;
-border-radius: 16px;
-border:1px solid black;
-background-color:#FFEBD8;
+    border-radius: 16px;
+    border: 1px solid black;
+    background-color: #FFEBD8;
 
 }
 
@@ -300,7 +301,28 @@ background-color:#FFEBD8;
     position: absolute;
     top: 216px;
     left: 80px;
-    border-top: 1px  solid black;
+    border-top: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited,
+a:active,
+a:focus {
+    color: inherit;
+    outline: none;
+}
+
+#main {
+    font-family: "Montserrat", sans-serif;
+    width: 82px;
+    height: 20px;
+    position: absolute;
+    top: 88px;
+    left: 829.67px;
 }
 
 #lastblock p {
@@ -314,31 +336,31 @@ background-color:#FFEBD8;
 
 
 #span4 {
-position: absolute;
-left: 247px;
-top:166px;
-font-size: 16px;
+    position: absolute;
+    left: 247px;
+    top: 166px;
+    font-size: 16px;
     color: #656565
-
 }
 
-#span5{
-position: absolute;
-left: 267px;
-top:164px;
-font-size: 16px;
+#span5 {
+    position: absolute;
+    left: 267px;
+    top: 164px;
+    font-size: 16px;
     color: #656565;
- font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
+
 .h1 {
-position:absolute;
-left:0px;
-top:0px;
-font-size:64px;
-font-style:italic;
-font-weight: 600;
-width:470px;
-height: 70px;
-font-family: "Playfair Display", serif;
-margin:0;
+    position: absolute;
+    left: 46px;
+    top: 24px;
+    font-size: 64px;
+    font-style: italic;
+    font-weight: 600;
+    width: 470px;
+    height: 70px;
+    font-family: "Playfair Display", serif;
+    margin: 0;
 }
